@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <title>مسار Java 25 | AcademiPro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap 5 -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    />
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+                <img src="assets/img/logo.png" alt="AcademiPro Logo" width="42" height="42" class="rounded-circle">
+                <span class="brand-name">
+                    <span class="ap-aca">Academi</span><span class="ap-pro">Pro</span>
+                </span>
+            </a>
+
+            <button class="navbar-toggler text-white border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">الرئيسية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">عن الأكاديمية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="courses.html">الدورات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">تواصل معنا</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero للكورس -->
+    <section class="hero-section py-5">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-7">
+                    <div class="hero-badge">
+                        <span class="hero-badge-dot"></span>
+                        <span>مسار رئيسي — من الصفر حتى المستوى المتقدم</span>
+                    </div>
+                    <h1 class="hero-title mb-3">
+                        مسار Java 25<br />من الصفر حتى بناء مشاريع حقيقية.
+                    </h1>
+                    <p class="hero-subtitle mb-4">
+                        مسار متكامل يركز على الفهم العميق وتطبيق المفاهيم خطوة بخطوة،
+                        مع ربط كل مستوى بمشاريع وتمارين عملية.
+                    </p>
+                    <div class="btn-group d-flex flex-wrap">
+                        <a href="#levels" class="btn btn-ap-primary btn-lg">
+                            استكشف مستويات المسار
+                        </a>
+                        <a href="contact.html" class="btn btn-ap-outline btn-lg">
+                            اسأل عن التسجيل وموعد الإطلاق
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="bg-white rounded-4 p-4 shadow-sm">
+                        <h5 class="mb-3" style="color: var(--ap-navy); font-weight:700;">
+                            بطاقة معلومات سريعة
+                        </h5>
+                        <ul class="list-unstyled mb-0 small" style="color: var(--ap-navy);">
+                            <li class="mb-2"><strong>اللغة:</strong> Java 25 (إصدار حديث مدعوم طويل الأمد).</li>
+                            <li class="mb-2"><strong>المستوى:</strong> يبدأ من الصفر ولا يتطلب خبرة سابقة.</li>
+                            <li class="mb-2"><strong>الأسلوب:</strong> فيديو + تمارين + مشاريع + ملفات جاهزة.</li>
+                            <li class="mb-2"><strong>المخرجات:</strong> أساس قوي + مشاريع يمكن إضافتها للسيرة الذاتية.</li>
+                            <li><strong>الفئة المستهدفة:</strong> المبتدئون + من لديهم خلفية ويريدون أساس حديث ونظيف.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- مستويات المسار -->
+    <main class="py-5">
+        <div class="container" id="levels">
+            <div class="row mb-4">
+                <div class="col-lg-8 mx-auto text-center">
+                    <p class="section-eyebrow mb-2">مستويات المسار</p>
+                    <h2 class="section-title mb-3">ما الذي ستتعلمه في كل مستوى؟</h2>
+                    <p class="mb-0">
+                        تم تقسيم مسار Java 25 إلى مستويات واضحة تساعدك تعرف أين أنت الآن،
+                        وإلى أين ستصل في نهاية كل مرحلة.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <!-- Level 0 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card feature-card p-4 h-100">
+                        <div class="feature-icon">0</div>
+                        <h6 class="fw-bold mb-2">Level 0 — بداية الرحلة</h6>
+                        <p class="small mb-2">
+                            إزالة رهبة البرمجة، فهم الفكرة العامة، تشغيل أول كود،
+                            تجربة JShell، وتجهيز بيئة العمل IntelliJ.
+                        </p>
+                        <ul class="small mb-0">
+                            <li>ما هي Java ولماذا نستخدم إصدار 25؟</li>
+                            <li>JShell كأسهل مدخل لتجربة الكود.</li>
+                            <li>Compact Programs مقابل الـ main التقليدية.</li>
+                            <li>إنشاء أول مشروع في IntelliJ.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Level 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card feature-card p-4 h-100">
+                        <div class="feature-icon">1</div>
+                        <h6 class="fw-bold mb-2">Level 1 — الأساسيات الحديثة</h6>
+                        <p class="small mb-2">
+                            بناء أساس قوي: المتغيرات، الأنواع، التحكم في التدفق،
+                            الدوال، والمقدمة إلى البرمجة الكائنية.
+                        </p>
+                        <ul class="small mb-0">
+                            <li>المتغيرات والأنواع البدائية (primitives).</li>
+                            <li>if / else / switch (بنسختها الحديثة).</li>
+                            <li>الحلقات for / while / for-each.</li>
+                            <li>الدوال (methods) والـ parameters و return.</li>
+                            <li>مقدمة بسيطة إلى الكلاسات والكائنات.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Level 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card feature-card p-4 h-100">
+                        <div class="feature-icon">2</div>
+                        <h6 class="fw-bold mb-2">Level 2 — المشاريع الأولى</h6>
+                        <p class="small mb-2">
+                            الانتقال من الأمثلة الصغيرة إلى برامج حقيقية صغيرة
+                            يمكن تشغيلها وتجربتها وحفظها في GitHub.
+                        </p>
+                        <ul class="small mb-0">
+                            <li>المصفوفات و ArrayList و HashMap الأساسية.</li>
+                            <li>تنظيم الكود في حزم (packages).</li>
+                            <li>مشاريع صغيرة (مدير مهام، برنامج فواتير بسيط، إلخ).</li>
+                            <li>التعامل مع الملفات (قراءة وكتابة نصوص).</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Level 3 -->
+                <div class="col-md-6 col-lg-6">
+                    <div class="card feature-card p-4 h-100">
+                        <div class="feature-icon">3</div>
+                        <h6 class="fw-bold mb-2">Level 3 — مفاهيم متقدمة لكن عملية</h6>
+                        <p class="small mb-2">
+                            التعمق في قدرات Java الحديثة دون تعقيد أكاديمي زائد،
+                            مع التركيز على ما تحتاجه فعلاً في المشاريع.
+                        </p>
+                        <ul class="small mb-0">
+                            <li>الـ OOP بعمق: الوراثة، التعددية (Polymorphism)، الواجهات.</li>
+                            <li>Exception Handling بطريقة نظيفة.</li>
+                            <li>Lambda Expressions و Streams.</li>
+                            <li>نظرة أولية على Virtual Threads في Java 21/25.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Level 4 -->
+                <div class="col-md-6 col-lg-6">
+                    <div class="card feature-card p-4 h-100">
+                        <div class="feature-icon">4</div>
+                        <h6 class="fw-bold mb-2">Level 4 — ربط Java بالعالم الحقيقي</h6>
+                        <p class="small mb-2">
+                            تجهيزك للمرحلة التالية: التعامل مع قواعد البيانات، REST APIs،
+                            وربط Java مع تقنيات أخرى، مع لمحة عن الذكاء الاصطناعي.
+                        </p>
+                        <ul class="small mb-0">
+                            <li>التعامل مع قواعد البيانات بشكل أولي (مفهوم فقط، أو JDBC بسيط).</li>
+                            <li>فهم REST APIs وكيف تستهلكها من Java.</li>
+                            <li>مشروع تخرّج صغير يجمع المفاهيم السابقة.</li>
+                            <li>مقدمة نظرية: كيف يمكن لJava أن تتكامل مع LLMs و AI.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- قسم لمن هذا المسار؟ -->
+            <div class="row g-4 mt-5">
+                <div class="col-lg-6">
+                    <div class="card feature-card p-4 h-100">
+                        <h5 class="fw-bold mb-3">لمن هذا المسار؟</h5>
+                        <ul class="small mb-0">
+                            <li class="mb-2">✔ من يبدأ البرمجة لأول مرة ويريد لغة قوية ومنتشرة في سوق العمل.</li>
+                            <li class="mb-2">✔ من لديه خبرة بسيطة في البرمجة ويريد “إعادة بناء الأساس” بشكل صحيح.</li>
+                            <li class="mb-2">✔ من يخطط مستقبلاً لدخول عالم Spring / Microservices / Cloud.</li>
+                            <li>✔ من يهتم بأن تكون Java جزءًا من رحلته مع الذكاء الاصطناعي والأنظمة الكبيرة.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="card feature-card p-4 h-100">
+                        <h5 class="fw-bold mb-3">ماذا تحتاج قبل أن تبدأ؟</h5>
+                        <ul class="small mb-0">
+                            <li class="mb-2">✔ جهاز كمبيوتر (Windows / Linux / macOS) قادر على تشغيل IntelliJ.</li>
+                            <li class="mb-2">✔ إنترنت مستقر لتحميل الأدوات ومشاهدة الفيديوهات.</li>
+                            <li class="mb-2">✔ التزام أسبوعي بسيط (3–6 ساعات على الأقل للتطبيق).</li>
+                            <li>✔ عقلية “أتعلم خطوة خطوة” بدل “أحفظ كل شيء مرة واحدة”.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- دعوة للتواصل -->
+            <div class="row mt-5">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h3 class="section-title mb-3" style="font-size: 1.8rem;">
+                        جاهز تبدأ مسار Java 25؟
+                    </h3>
+                    <p class="mb-4">
+                        عند إطلاق المسار، سيتم التواصل مع أول من يسجّل اهتمامه
+                        ليحصل على الأولوية وربما مزايا خاصة للدفعة الأولى.
+                    </p>
+                    <a href="contact.html" class="btn btn-ap-primary btn-lg">
+                        سجّل اهتمامك الآن
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+                <div>
+                    © <span id="year"></span> AcademiPro. جميع الحقوق محفوظة.
+                </div>
+                <div class="small">
+                    بريد التواصل: <a href="mailto:info@academipro.com">info@academipro.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
