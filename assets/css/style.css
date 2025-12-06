@@ -1,0 +1,170 @@
+:root {
+    --ap-navy: #0b1e33;
+    --ap-teal: #19c2b1;
+    --ap-gold: #d4a039;
+    --ap-light: #f3f5f9;
+}
+
+body {
+    font-family: "Cairo", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background-color: var(--ap-light);
+    color: #122033;
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--ap-navy);
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+}
+
+.navbar-nav .nav-link.active {
+    color: var(--ap-teal) !important;
+    font-weight: 600;
+}
+
+.brand-name {
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.brand-name span.ap-aca {
+    color: #ffffff;
+}
+
+.brand-name span.ap-pro {
+    color: var(--ap-teal);
+}
+
+/* Hero */
+.hero-section {
+    background-color: var(--ap-navy);
+    color: #ffffff;
+    padding: 5rem 0 4rem;
+}
+
+/* Fix text color inside the white box in Hero */
+.hero-section .bg-white,
+.hero-section .bg-white h5,
+.hero-section .bg-white li,
+.hero-section .bg-white p {
+    color: var(--ap-navy) !important;
+}
+
+
+.hero-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.hero-subtitle {
+    font-size: 1.2rem;
+    color: #d0deff;
+}
+
+.hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: rgba(25, 194, 177, 0.1);
+    border-radius: 999px;
+    padding: 0.35rem 0.9rem;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    color: var(--ap-teal);
+}
+
+.hero-badge-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 999px;
+    background-color: var(--ap-gold);
+}
+
+.btn-ap-primary {
+    background-color: var(--ap-teal);
+    border: none;
+    color: #0b1e33;
+    font-weight: 600;
+}
+
+.btn-ap-primary:hover {
+    background-color: #12a296;
+    color: #0b1e33;
+}
+
+.btn-ap-outline {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.btn-ap-outline:hover {
+    background-color: #ffffff;
+    color: var(--ap-navy);
+}
+
+/* Sections */
+.section-title {
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--ap-navy);
+}
+
+.section-eyebrow {
+    color: var(--ap-teal);
+    font-weight: 600;
+    font-size: 0.95rem;
+    letter-spacing: 0.05em;
+}
+
+.feature-card {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 12px 30px rgba(11, 30, 51, 0.06);
+    height: 100%;
+}
+
+.feature-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 999px;
+    background-color: rgba(25, 194, 177, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.75rem;
+    color: var(--ap-teal);
+    font-weight: 700;
+}
+
+/* Footer */
+footer {
+    background-color: var(--ap-navy);
+    color: #d9e2ff;
+    padding: 2rem 0 1rem;
+    margin-top: 3rem;
+}
+
+footer a {
+    color: var(--ap-teal);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* RTL adjustments */
+.hero-section .btn-group {
+    gap: 0.75rem;
+}
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2rem;
+    }
+}
